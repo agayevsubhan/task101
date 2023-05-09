@@ -1,0 +1,46 @@
+.ikinci{
+display: flex;
+justify-content: space-around;
+.reng{
+    color: rgb(102, 30, 30);
+    display: flex;
+    margin-top:15%;
+    margin-left: 7%;
+}
+.yazi{
+    margin-left: 5%;
+    font-size: 60px;
+    color: white;
+}
+.yazi2{
+    margin-left: 5%;
+color: rgb(223, 218, 209);
+}
+.btn2{
+    margin-left:5%;
+    width:120px ;
+    height: 50px;
+    background-color: #EF6D58;
+}
+.btn3{
+    margin-left:5%;
+    width:120px ;
+    height: 50px;
+    background-color:  rgb(40, 40, 59);
+}
+
+
+}
+.ikinci{
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .ikinci{
+        display:flex ;
+        padding: 30px;
+        flex-direction:column-reverse;
+
+
+    }
+}

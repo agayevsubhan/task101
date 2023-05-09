@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ikinci {
+  display: flex;
+  justify-content: space-around;
+}
+.ikinci .reng {
+  color: rgb(102, 30, 30);
+  display: flex;
+  margin-top: 15%;
+  margin-left: 7%;
+}
+.ikinci .yazi {
+  margin-left: 5%;
+  font-size: 60px;
+  color: white;
+}
+.ikinci .yazi2 {
+  margin-left: 5%;
+  color: rgb(223, 218, 209);
+}
+.ikinci .btn2 {
+  margin-left: 5%;
+  width: 120px;
+  height: 50px;
+  background-color: #EF6D58;
+}
+.ikinci .btn3 {
+  margin-left: 5%;
+  width: 120px;
+  height: 50px;
+  background-color: rgb(40, 40, 59);
+}
+
+.ikinci {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .ikinci {
+    display: flex;
+    padding: 30px;
+    flex-direction: column-reverse;
+  }
+}
+body {
+  background-color: rgb(40, 40, 59);
+}
+
+h1 {
+  color: white;
+}
+
+nav {
+  background-color: rgb(40, 40, 59);
+  display: flex;
+  justify-content: space-around;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+nav ul li {
+  font-size: 20px;
+  display: flex;
+  color: white;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(40, 40, 59);
+  color: white;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 4px;
+  border-radius: 8px;
+}
+
+.btn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: none;
+  }
+  nav button {
+    display: none;
+  }
+  nav .btn {
+    display: block;
+    width: 48px;
+    height: 48px;
+  }
+}
+.son {
+  display: flex;
+  font-size: 25px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */
