@@ -1,46 +1,265 @@
-.ikinci{
-display: flex;
-justify-content: space-around;
-.reng{
+.container {
+  margin: auto;
+  max-width: 1440px;
+}
+
+header {
+  background-color: rgb(40, 40, 59);
+}
+
+.ikinci {
+  display: flex;
+  justify-content: space-around;
+  .reng {
     color: rgb(102, 30, 30);
     display: flex;
-    margin-top:15%;
+    margin-top: 15%;
     margin-left: 7%;
-}
-.yazi{
+  }
+  .yazi {
     margin-left: 5%;
     font-size: 60px;
     color: white;
-}
-.yazi2{
+  }
+  .yazi2 {
     margin-left: 5%;
-color: rgb(223, 218, 209);
-}
-.btn2{
-    margin-left:5%;
-    width:120px ;
+    color: rgb(223, 218, 209);
+  }
+  .btn2 {
+    margin-left: 5%;
+    width: 120px;
     height: 50px;
-    background-color: #EF6D58;
-}
-.btn3{
-    margin-left:5%;
-    width:120px ;
+    background-color: #ef6d58;
+  }
+  .btn3 {
+    margin-left: 5%;
+    width: 120px;
     height: 50px;
-    background-color:  rgb(40, 40, 59);
+    background-color: rgb(40, 40, 59);
+  }
+}
+.ikinci {
+  display: flex;
 }
 
-
-}
-.ikinci{
+@media screen and (max-width: 768px) {
+  .ikinci {
     display: flex;
+    padding: 30px;
+    flex-direction: column-reverse;
+  }
 }
 
-@media screen and (max-width:768px) {
-    .ikinci{
-        display:flex ;
-        padding: 30px;
-        flex-direction:column-reverse;
+.dorduncu {
+  background-color: bisque;
 
+  display: flex;
+  justify-content: space-around;
+}
 
+.hrzntl {
+  display: flex;
+  justify-content: center;
+}
+.altinci {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  gap: 20px;
+}
+.btn4 {
+  background-color: aliceblue;
+  color: #391400;
+  border: aliceblue;
+}
+
+.yeddinci {
+  background-color: rgb(255, 242, 227);
+  display: flex;
+}
+.sekkiz {
+  background-color: rgb(255, 242, 227);
+  display: flex;
+  justify-content: space-around;
+}
+
+.dokkuz {
+  display: flex;
+  background-color: rgb(255, 242, 227);
+}
+span {
+  margin-left: 50px;
+  div {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    p {
+      margin-left: 15px;
     }
+  }
+}
+.araz {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .dorduncu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .besinci {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .yeddinci {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sekkiz {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dokkuz {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.on {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 242, 227);
+  div {
+    margin-top: 60px;
+  }
+  p {
+    margin-top: 20px;
+  }
+  h3 {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .on {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.onbir {
+  background-color: rgb(255, 242, 227);
+  justify-content: space-around;
+ 
+  display: flex;
+  // flex-direction: column;
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-boxes{
+    display: flex;
+    
+  }
+}
+@media screen and (max-width: 768px) {
+  .onbir {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.oniki{
+background-color: rgb(255, 242, 227);
+display: flex;
+justify-content: space-around;
+p{
+  margin: 20px  ;
+}
+.book{
+  background-color: aliceblue;
+}
+}
+@media screen and (max-width: 768px) {
+  .oniki {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.onuc{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 242, 227);
+  button{
+    background-color: white;
+    color: #000;
+    border: white;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .onuc {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.ondord{
+  background-color: rgb(255, 242, 227);
+  justify-content: space-around;
+  display: flex;
+  .liston{
+    width: 40px;
+    height: 40px;
+    background-color: #ef6d58;
+    border-radius: 50%;
+    text-align: center;
+  }
+  p{
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ondord {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.onbes{
+  background-color: rgb(40, 40, 59);  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  div{
+    display: flex;
+    justify-content: center;
+  }
+  p{
+    margin-left: 25px;
+    color: #EF6D58;
+  }
+  h2{
+    color: #FFFFFF;
+  }
+  button{
+  margin-top: 50px;
+    width: 180px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .onbes{
+    display: flex;
+    flex-direction: column;
+  }
 }
